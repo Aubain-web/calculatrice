@@ -119,8 +119,8 @@ public class calculatrice {
         button7.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                if(!txtDisplay.getText().contains(".")){
-                    txtDisplay.setText(txtDisplay.getText());
+                if(!txtDisplay.getText().contains(".")) {
+                    txtDisplay.setText(txtDisplay.getText() + ".");
                 }
             }
         });
